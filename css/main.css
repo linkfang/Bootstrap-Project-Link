@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Pridi');
+
 html {
     background-color: hsl(188deg, 0%, 98%);
 }
 
 body {
+    font-family: 'Roboto', 'Pridi', sans-serif, serif, Arial;
     background-color: hsl(188deg, 0%, 98%);
     overflow-x: hidden;
     width: 100%;
@@ -64,7 +68,6 @@ body {
     position: absolute;
     font-size: 30rem;
     color: hsla(185deg, 0%, 0%, 0.05);
-    top: -20px;
     transition: all 0.5s linear;
 }
 
@@ -98,6 +101,7 @@ main {
 }
 
 footer {
+    font-family: 'Roboto', 'Pridi', sans-serif, serif, Arial;
     margin-top: 3rem;
     padding: 2rem 0 1.2rem 0;
     display: flex;
@@ -420,7 +424,7 @@ textarea {
         position: absolute;
         font-size: 24rem;
         color: hsla(185deg, 0%, 0%, 0.05);
-        top: 26px;
+        top: 54px;
         transition: all 0.5s linear;
     }
 
@@ -475,7 +479,6 @@ textarea {
         .bgWord {
         font-size: 25rem;
         color: hsla(185deg, 0%, 0%, 0.05);
-        top: 8px;
         transition: all 0.5s linear;
     }
 
